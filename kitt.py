@@ -5,11 +5,14 @@ from time import sleep
 
 pfio.init()
 
-for i in range(1,9):
-  pfio.digital_write(i,True)
+while True:
+	for i in range(1,9):
+		pfio.digital_write(i,True)
+		sleep(0.2)
 
-for i in range(1,9):
-  pfio.digital_write(i,False)
+	for i in range(1,9):
+		pfio.digital_write(i,False)
+		sleep(0.2)
   
   
 
