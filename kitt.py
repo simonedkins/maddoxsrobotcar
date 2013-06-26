@@ -9,6 +9,8 @@ pfio.init()
 
 
 try:
+
+	espeak.synth('Hello Maddox, this is your robot car brain speaking. I just wanted to say goodnight and I hope my wheels arrive soon. Bye bye from your robot brain')
 	while True:
 		espeak.synth("Turning the lights on")
 		for i in range(1,9):
