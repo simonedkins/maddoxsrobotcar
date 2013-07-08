@@ -9,10 +9,20 @@ GPIO.setup(12,GPIO.OUT)
 
 GPIO.output(12,True)
 
-p = GPIO.PWM(8,20)
-q = GPIO.PWM(10,20)
+p = GPIO.PWM(8,50)
+q = GPIO.PWM(10,50)
 
-speeds = (25,50,75,100)
+speeds = range(0,101,10)
+
+
+
+
+
+
+
+
+
+
 
 while True:
 	p.start(0)
