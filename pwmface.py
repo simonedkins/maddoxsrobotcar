@@ -114,8 +114,8 @@ class Wheel():
 if __name__ == '__main__':
 
 
-	x = Wheel('left',1,3,7)
-	y = Wheel('right',2,4,8)
+	x = Wheel('left',2,3,4)
+	y = Wheel('right',5,6,7)
 	x.forwards(1.0)
 	y.forwards(0.8)
 	sleep(5)
